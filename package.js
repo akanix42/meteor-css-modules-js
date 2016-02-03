@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'nathantreid:css-modules-js',
-	version: '0.0.1',
+	version: '0.0.2',
 	// Brief, one-line summary of the package.
 	summary: 'JS 2015 build plugin for nathantreid:css-modules',
 	// URL to the Git repository containing the source code for this package.
