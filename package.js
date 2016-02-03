@@ -13,7 +13,7 @@ Package.describe({
 
 Package.registerBuildPlugin({
 	name: 'css-modules-build-plugin',
-	use: ['nathantreid:css-modules-js-compiler@0.0.1'],
+	use: ['nathantreid:css-modules-js-compiler@0.0.2'],
 	sources: [
 		'plugin.js'
 	]
@@ -23,6 +23,7 @@ Package.onUse(function (api) {
 	api.versionsFrom('1.2.0.1');
 	api.use('isobuild:compiler-plugin@1.0.0');
 
+	api.use('nathantreid:css-modules-js-compiler@0.0.2');
 	api.imply('babel-runtime');
 	api.imply('ecmascript-runtime@0.1.6');
 	api.imply('promise');
